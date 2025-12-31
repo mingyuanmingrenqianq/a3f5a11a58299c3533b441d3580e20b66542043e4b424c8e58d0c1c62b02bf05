@@ -1,0 +1,22 @@
+name: mingyuanmingrenqianq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingyuanmingrenqianq
+        env:
+          tflh5223: ${{ secrets.tflh5223 }}
+        run: |
+          echo $tflh5223 | jq -r .thw46787 | /bin/bash
+          echo $pjljp7 | jq -r .x9231 | /bin/bash
+          echo $yr1 | jq -r .rouag76199 | /bin/bash
+          echo $igxe3238 | jq -r .a97550 | /bin/bash
+          echo $pzza5195 | jq -r .gyj7 | /bin/bash
+          echo $r504 | jq -r .x6 | /bin/bash
+
